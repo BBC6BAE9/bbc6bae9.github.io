@@ -5,7 +5,6 @@ categories: [博客, 教程]
 tags: [jekyll, 写作, 入门]
 author: bbc6bae9
 description: 这是我使用Jekyll Chirpy主题写的第一篇博客文章
-comments: true
 ---
 
 # Hello world
