@@ -1,0 +1,51 @@
+{% if site.gitalk.enable and page.comments != false %}
+<div class="mt-5">
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/md5@2.3.0/dist/md5.min.js"></script>
+  <!-- Backup MD5 implementation -->
+  <script>
+    if (typeof md5 === 'undefined') {
+      // Simple MD5 fallback - just use pathname without MD5 for now
+      window.md5 = function(str) { return str.replace(/\//g, '-'); };
+    }
+  </script>
+  <script type="text/javascript">
+    (function() {
+      // 检查必要的库是否加载
+      if (typeof Gitalk === 'undefined' || typeof md5 === 'undefined') {
+        return;
+      }
+
+      // 处理标签，过滤掉空值和无效值
+      var tagsString = '{{ page.tags | jsonify }}';
+      var tags = [];
+      try {
+        tags = JSON.parse(tagsString).filter(function(tag) {
+          return tag && tag.trim() !== '' && !tag.includes('/');
+        });
+      } catch(e) {
+        tags = [];
+      }
+
+      var gitalk = new Gitalk({
+        clientID: '{{ site.gitalk.client_id }}',
+        clientSecret: '{{ site.gitalk.client_secret }}',
+        repo: '{{ site.gitalk.repo }}',
+        owner: '{{ site.gitalk.github_id }}',
+        admin: ['{{ site.gitalk.github_id }}'],
+        id: md5(location.pathname),
+        title: '{{ page.title }}',
+        body: '文章链接：' + location.href,
+        labels: ['Gitalk'].concat(tags),
+        language: 'zh-CN',
+        perPage: 10,
+        distractionFreeMode: false
+      });
+      
+      gitalk.render('gitalk-container');
+    })();
+  </script>
+</div>
+{% endif %}
