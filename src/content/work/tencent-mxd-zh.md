@@ -1,7 +1,7 @@
 ---
 company: "腾讯视频"
 role: "BBC6BAE9"
-dateStart: "2024-06-14"
+dateStart: "2019-01-01"
 dateEnd: "至今"
 lang: "zh-CN"
 ---

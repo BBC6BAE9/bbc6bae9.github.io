@@ -8,9 +8,9 @@ export const defaultLang = "zh-CN";
 export const ui = {
   "zh-CN": {
     "nav.home": "首页",
-    "nav.work": "项目",
+    "nav.work": "经历",
     "nav.blog": "博客",
-    "page.work.title": "项目",
+    "page.work.title": "经历",
     "page.blog.title": "博客",
   },
   en: {

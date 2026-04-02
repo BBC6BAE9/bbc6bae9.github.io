@@ -1,7 +1,7 @@
 ---
 company: "Tencent Video"
 role: "BBC6BAE9"
-dateStart: "2024-06-14"
+dateStart: "2019-01-01"
 dateEnd: "Current"
 lang: "en"
 ---
