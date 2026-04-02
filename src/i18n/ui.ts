@@ -9,15 +9,19 @@ export const ui = {
   "zh-CN": {
     "nav.home": "首页",
     "nav.work": "经历",
+    "nav.projects": "项目",
     "nav.blog": "博客",
     "page.work.title": "经历",
+    "page.projects.title": "项目",
     "page.blog.title": "博客",
   },
   en: {
     "nav.home": "Home",
     "nav.work": "Work",
+    "nav.projects": "Projects",
     "nav.blog": "Blog",
     "page.work.title": "Work",
+    "page.projects.title": "Projects",
     "page.blog.title": "Blog",
   },
 } as const;

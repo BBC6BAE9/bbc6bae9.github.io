@@ -29,8 +29,14 @@ const enUrl = lang === 'en' ? normalizedPath : `/en${normalizedPath === '/' ? ''
         <span>
           {`/`}
         </span>
+        <Link href={`${basePath}/work`}>
+          {t("nav.work")}
+        </Link>
+        <span>
+          {`/`}
+        </span>
         <Link href={`${basePath}/projects`}>
-          projects
+          {t("nav.projects")}
         </Link>
         <span class="ml-2 mr-2">|</span>
         {lang === 'en' ? (
