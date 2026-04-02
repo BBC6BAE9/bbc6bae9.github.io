@@ -1,5 +1,5 @@
 ---
-company: "腾讯 (Tencent MXD)"
+company: "腾讯视频"
 role: "BBC6BAE9"
 dateStart: "2024-06-14"
 dateEnd: "至今"
