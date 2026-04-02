@@ -7,6 +7,11 @@ import { getLangFromUrl, useTranslations } from "../i18n/ui";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const basePath = lang === "en" ? "/en" : "";
+
+const pathname = Astro.url.pathname;
+const normalizedPath = pathname.endsWith('/') && pathname.length > 1 ? pathname.slice(0, -1) : pathname;
+const zhUrl = lang === 'en' ? (normalizedPath.replace(/^\/en/, '') || '/') : normalizedPath;
+const enUrl = lang === 'en' ? normalizedPath : `/en${normalizedPath === '/' ? '' : normalizedPath}`;
 ---
 
 <header>
@@ -35,9 +40,9 @@ const basePath = lang === "en" ? "/en" : "";
         </Link>
         <span class="ml-2 mr-2">|</span>
         {lang === 'en' ? (
-          <Link href="/">中</Link>
+          <Link href={zhUrl}>中</Link>
         ) : (
-          <Link href="/en">EN</Link>
+          <Link href={enUrl}>EN</Link>
         )}
       </nav>
     </div>
