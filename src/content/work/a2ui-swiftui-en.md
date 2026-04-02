@@ -1,6 +1,6 @@
 ---
 company: "Open Source"
-role: "A2UI-SwiftUI Creator"
+role: "BBC6BAE9"
 dateStart: "2026-03-25"
 dateEnd: "Current"
 lang: "en"
