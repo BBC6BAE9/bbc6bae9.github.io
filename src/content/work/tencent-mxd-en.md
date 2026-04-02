@@ -1,12 +1,12 @@
 ---
 company: "Tencent MXD"
-role: "visionOS Experience Developer"
+role: "visionOS Lead Developer"
 dateStart: "2024-06-14"
 dateEnd: "Current"
 lang: "en"
 ---
 
-Participated in the core development and experiential design of the **Tencent Video visionOS app**, launched simultaneously with the Apple Vision Pro debut in China.
+Served as the **Lead Developer** for the **Tencent Video visionOS app** (independently contributing **61.3%** of the total code commits) and spearheaded the core development and experiential design. The app was launched simultaneously with the Apple Vision Pro debut in China.
 
 Leveraged RealityKit and Apple's Spatial Audio technologies to build deeply immersive 3D spatial environments for top-tier film, television, and gaming IPs:
 - Contributed to building signature spatial experiences, including the Hanging Temple from *Joy of Life Season 2*, the Star Dou Forest from *Soul Land*, and classic giant-screen IP art theaters.

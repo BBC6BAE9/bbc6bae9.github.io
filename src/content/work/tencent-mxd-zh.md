@@ -1,12 +1,12 @@
 ---
 company: "腾讯 (Tencent MXD)"
-role: "visionOS 体验开发"
+role: "visionOS 主开发 (Lead Developer)"
 dateStart: "2024-06-14"
 dateEnd: "至今"
 lang: "zh-CN"
 ---
 
-参与了**腾讯视频 visionOS 端**的底层开发与体验设计落地，应用已随 Apple Vision Pro 国行首发正式登陆 App Store。
+作为**腾讯视频 visionOS 端**的**核心主开发**（个人贡献了高达 **61.3%** 的代码提交量），主导了该应用的底层开发与体验设计落地。应用已随 Apple Vision Pro 国行首发正式登陆 App Store。
 
 基于 RealityKit 与空间音频技术，为平台内众多热门影视游戏 IP 构建了深度的 3D 沉浸式空间环境：
 - 构建了《庆余年第二季》的悬空庙、《斗罗大陆》的星斗森林以及经典的 IP 巨幕艺术影院。
