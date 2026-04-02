@@ -1,5 +1,5 @@
 ---
-title: "A2UI-Swift"
+title: "A2UI-SwiftUI"
 description: "一个基于 Apple 全平台（iOS, macOS, visionOS 等）原生渲染的 AI Agent UI 库。"
 date: "2026-03-25"
 lang: "zh-CN"
