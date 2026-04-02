@@ -1,0 +1,45 @@
+---
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { SITE } from "@consts";
+import { getLangFromUrl, useTranslations } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const basePath = lang === "en" ? "/en" : "";
+---
+
+<header>
+  <Container>
+    <div class="flex flex-wrap gap-y-2 justify-between">
+      <Link href={`${basePath}/`} underline={false}>
+        <div class="font-semibold">
+          {SITE.NAME}
+        </div>
+      </Link>
+      <nav class="flex items-center gap-1">
+        <Link href={`${basePath}/blog`}>
+          {t("nav.blog")}
+        </Link>
+        <span>
+          {`/`}
+        </span>
+        <Link href={`${basePath}/work`}>
+          {t("nav.work")}
+        </Link>
+        <span>
+          {`/`}
+        </span>
+        <Link href={`${basePath}/projects`}>
+          projects
+        </Link>
+        <span class="ml-2 mr-2">|</span>
+        {lang === 'en' ? (
+          <Link href="/">中</Link>
+        ) : (
+          <Link href="/en">EN</Link>
+        )}
+      </nav>
+    </div>
+  </Container>
+</header>
