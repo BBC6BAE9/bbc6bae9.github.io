@@ -1,5 +1,5 @@
 {
-  "description": "Full Stack Engineer building performant web applications and developer tools. Currently crafting interfaces at Vercel",
+  "description": "Full-stack developer focused on generative UI, Apple platforms, media players, and developer tools.",
   "nav": {
     "about": "about",
     "projects": "projects",
@@ -7,8 +7,8 @@
     "contact": "contact"
   },
   "hero": {
-    "title": "Full Stack Engineer",
-    "p1": "building performant web applications and developer tools. Currently crafting interfaces at Vercel",
+    "title": "Full-Stack Developer",
+    "p1": "Focused on generative UI, Apple platforms, media players, and developer tools.",
     "p2": "Previously shipped products at Linear, Stripe, and early-stage startups. I care about clean code, fast load times, and thoughtful UX.",
     "p3": "When not coding, you'll find me contributing to open source, writing about web performance, or exploring new frameworks."
   },
