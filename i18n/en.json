@@ -15,14 +15,14 @@
   "projects": {
     "title": "Projects",
     "item_1": {
-      "name": "hybrid-astro-ui",
-      "description": "UI elements for Astro using a hybrid model: zero-JS Astro + progressive enhancement with web components.",
-      "link": "https://github.com/JorgeRosbel/hybrid-astro-ui"
+      "name": "a2ui-swift",
+      "description": "A native AI Agent UI library for Apple platforms, built with Swift for iOS, macOS, visionOS, and more.",
+      "link": "https://github.com/BBC6BAE9/a2ui-swift"
     },
     "item_2": {
-      "name": "http-sentinel",
-      "description": "A TypeScript library that provides a comprehensive set of HTTP error classes and utilities for handling HTTP errors.",
-      "link": "https://github.com/JorgeRosbel/http-sentinel"
+      "name": "a2a-swift",
+      "description": "A Swift implementation for building Agent-to-Agent communication flows with a native Apple-platform developer experience.",
+      "link": "https://github.com/BBC6BAE9/a2a-swift"
     },
     "item_3": {
       "name": "gitzen",

@@ -15,14 +15,14 @@
   "projects": {
     "title": "项目",
     "item_1": {
-      "name": "hybrid-astro-ui",
-      "description": "一套面向 Astro 的 UI 组件方案，结合零 JS 的 Astro 渲染和基于 Web Components 的渐进增强。",
-      "link": "https://github.com/JorgeRosbel/hybrid-astro-ui"
+      "name": "a2ui-swift",
+      "description": "一个面向 Apple 全平台的原生 AI Agent UI 库，使用 Swift 构建，覆盖 iOS、macOS、visionOS 等平台。",
+      "link": "https://github.com/BBC6BAE9/a2ui-swift"
     },
     "item_2": {
-      "name": "http-sentinel",
-      "description": "一个 TypeScript HTTP 错误类与工具库，用于更统一地处理服务端和接口错误。",
-      "link": "https://github.com/JorgeRosbel/http-sentinel"
+      "name": "a2a-swift",
+      "description": "一个使用 Swift 构建的 A2A 协议实现，用于在 Apple 平台上搭建 Agent 与 Agent 之间的通信能力。",
+      "link": "https://github.com/BBC6BAE9/a2a-swift"
     },
     "item_3": {
       "name": "gitzen",
