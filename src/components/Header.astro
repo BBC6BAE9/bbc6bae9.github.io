@@ -1,50 +1,43 @@
 ---
-import Container from "@components/Container.astro";
-import Link from "@components/Link.astro";
-import { SITE } from "@consts";
-import { getLangFromUrl, useTranslations } from "../i18n/ui";
+import I18NDebug from "@ariaskit/astro-i18n/I18NDebug.astro";
+import { cls } from "@/src/lib/utils";
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
-const basePath = lang === "en" ? "/en" : "";
+type Locales = "es" | "en" | "pt"
 
-const pathname = Astro.url.pathname;
-const normalizedPath = pathname.endsWith('/') && pathname.length > 1 ? pathname.slice(0, -1) : pathname;
-const zhUrl = lang === 'en' ? (normalizedPath.replace(/^\/en/, '') || '/') : normalizedPath;
-const enUrl = lang === 'en' ? normalizedPath : `/en${normalizedPath === '/' ? '' : normalizedPath}`;
+interface Props {
+    nav:{path:string;text:string}[];
+    locales: Locales[];
+    currentLocale:string
+}
+
+const { nav, locales, currentLocale } = Astro.props as Props
+
 ---
 
-<header>
-  <Container>
-    <div class="flex flex-wrap gap-y-2 justify-between">
-      <Link href={`${basePath}/`} underline={false}>
-        <div class="font-semibold">
-          {SITE.NAME}
-        </div>
-      </Link>
-      <nav class="flex items-center gap-1">
-        <Link href={`${basePath}/blog`}>
-          {t("nav.blog")}
-        </Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href={`${basePath}/work`}>
-          {t("nav.work")}
-        </Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href={`${basePath}/projects`}>
-          {t("nav.projects")}
-        </Link>
-        <span class="ml-2 mr-2">|</span>
-        {lang === 'en' ? (
-          <Link href={zhUrl}>中</Link>
-        ) : (
-          <Link href={enUrl}>EN</Link>
-        )}
-      </nav>
+<header class="py-15 flex items-center justify-between flex-col md:flex-row fixed top-0 left-1/2 -translate-x-1/2 bg-background z-40">
+    <div class="flex items-center gap-5 order-2 md:order-1">
+        {
+            nav.map((item) => (
+                <I18NDebug key={item.text}>
+                    <a
+                        class="opacity-50 transition-all duration-200 hover:opacity-100 text-[1rem] md:text-[0.85rem]"
+                        href={`/${currentLocale}/${item.path}`}
+                    >
+                        {item.text}
+                    </a>
+                </I18NDebug>
+            ))
+        }
     </div>
-  </Container>
+    <div class="order-1 md:order-2 mb-4 md:mb-0 space-x-2 md:space-x-0" >
+        {
+            locales.map(item =>
+                <a href={`/${item.toLowerCase()}`} class={cls("uppercase text-[1.2rem] md:text-[0.9rem] hover:opacity-100 cursor-pointer opacity-70 transition-all duration-200", item === currentLocale.toLowerCase() && "opacity-100")}>
+                    {item}
+                </a>
+                <span class="last:hidden opacity-50 text-[1.2rem] md:text-[0.9rem]">/</span>
+            )
+        }
+    </div>
+    <div class="absolute -bottom-10 left-0 w-full h-18  pointer-events-none bg-linear-to-b from-background via-background/80 to-background/20 z-10"></div>
 </header>

@@ -1,16 +1,17 @@
-import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
+// @ts-check
+import { defineConfig } from 'astro/config';
 
+import tailwindcss from '@tailwindcss/vite';
+
+import sitemap from '@astrojs/sitemap';
+
+// https://astro.build/config
 export default defineConfig({
-  site: "https://bbc6bae9.github.io",
-  integrations: [mdx(), sitemap(), tailwind()],
-  i18n: {
-    defaultLocale: "zh-CN",
-    locales: ["zh-CN", "en"],
-    routing: {
-      prefixDefaultLocale: false
-    }
-  }
+  site: "https://bbc6bae9.github.io/",
+
+  vite: {
+    plugins: [tailwindcss()]
+  },
+
+  integrations: [sitemap()]
 });
