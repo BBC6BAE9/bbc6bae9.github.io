@@ -28,28 +28,10 @@
   "experience": {
     "title": "Experience",
     "item_1": {
-      "period": "2024 — now",
+      "period": "2019 — now",
       "role": "Senior Engineer",
-      "company": "Vercel",
-      "description": "Building the frontend cloud. Working on the dashboard, deployment infrastructure, and developer experience."
-    },
-    "item_2": {
-      "period": "2022 — 2024",
-      "role": "Software Engineer",
-      "company": "Linear",
-      "description": "Shipped real-time sync, keyboard-first interactions, and performance optimizations."
-    },
-    "item_3": {
-      "period": "2020 — 2022",
-      "role": "Full Stack Developer",
-      "company": "Stripe",
-      "description": "Designed payment flows and merchant dashboards. Led the migration to React 18 and improved CI/CD pipelines."
-    },
-    "item_4": {
-      "period": "2018 — 2020",
-      "role": "Frontend Engineer",
-      "company": "Early Startup",
-      "description": "First engineering hire. Built the core product from scratch using Next.js and Tailwind CSS."
+      "company": "Tencent",
+      "description": "Working on Tencent Video across visionOS development, client feature iteration, infrastructure tooling, recommendation backend services, and an automated client testing platform."
     }
   },
   "skills": {

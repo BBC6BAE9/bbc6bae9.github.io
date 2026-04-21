@@ -28,28 +28,10 @@
   "experience": {
     "title": "経験",
     "item_1": {
-      "period": "2024 — 現在",
+      "period": "2019 — 現在",
       "role": "シニアエンジニア",
-      "company": "Vercel",
-      "description": "ダッシュボード、デプロイ基盤、開発者体験を含むフロントエンドクラウドに関わる開発に従事。"
-    },
-    "item_2": {
-      "period": "2022 — 2024",
-      "role": "ソフトウェアエンジニア",
-      "company": "Linear",
-      "description": "リアルタイム同期、キーボード中心の操作性、パフォーマンス改善に取り組みました。"
-    },
-    "item_3": {
-      "period": "2020 — 2022",
-      "role": "フルスタックエンジニア",
-      "company": "Stripe",
-      "description": "決済フローや加盟店向けダッシュボードを設計し、React 18 への移行と CI/CD 改善を進めました。"
-    },
-    "item_4": {
-      "period": "2018 — 2020",
-      "role": "フロントエンドエンジニア",
-      "company": "Early Startup",
-      "description": "初期エンジニアとして、Next.js と Tailwind CSS でコアプロダクトをゼロから構築しました。"
+      "company": "Tencent",
+      "description": "Tencent Video において、visionOS の主要開発、クライアント機能の継続的な改善、基盤ツール開発、推薦バックエンド開発、クライアント自動テスト基盤の構築に携わっています。"
     }
   },
   "skills": {
