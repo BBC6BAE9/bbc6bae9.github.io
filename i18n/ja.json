@@ -50,6 +50,13 @@
       "experience_years": "10",
       "experience_label": "年の経験"
     },
+    "swift": {
+      "title": "Swift",
+      "category": "言語",
+      "description": "Appleプラットフォーム、SwiftUI、SDK開発",
+      "experience_years": "6",
+      "experience_label": "年の経験"
+    },
     "astro": {
       "title": "Astro",
       "category": "フレームワーク",

@@ -50,6 +50,13 @@
       "experience_years": "10",
       "experience_label": "years of experience"
     },
+    "swift": {
+      "title": "Swift",
+      "category": "Language",
+      "description": "Apple Platforms, SwiftUI, SDK Development",
+      "experience_years": "6",
+      "experience_label": "years of experience"
+    },
     "astro": {
       "title": "Astro",
       "category": "Framework",

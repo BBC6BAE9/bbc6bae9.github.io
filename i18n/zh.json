@@ -50,6 +50,13 @@
       "experience_years": "10",
       "experience_label": "年经验"
     },
+    "swift": {
+      "title": "Swift",
+      "category": "语言",
+      "description": "Apple 平台、SwiftUI、SDK 开发",
+      "experience_years": "6",
+      "experience_label": "年经验"
+    },
     "astro": {
       "title": "Astro",
       "category": "框架",
