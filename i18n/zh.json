@@ -28,28 +28,10 @@
   "experience": {
     "title": "经历",
     "item_1": {
-      "period": "2024 — 至今",
+      "period": "2019 — 至今",
       "role": "高级工程师",
-      "company": "Vercel",
-      "description": "参与前端云平台相关工作，覆盖控制台、部署基础设施和开发者体验。"
-    },
-    "item_2": {
-      "period": "2022 — 2024",
-      "role": "软件工程师",
-      "company": "Linear",
-      "description": "参与实时同步、键盘优先交互和性能优化相关功能开发。"
-    },
-    "item_3": {
-      "period": "2020 — 2022",
-      "role": "全栈开发工程师",
-      "company": "Stripe",
-      "description": "参与支付流程和商家后台建设，并推动 React 18 迁移与 CI/CD 改进。"
-    },
-    "item_4": {
-      "period": "2018 — 2020",
-      "role": "前端工程师",
-      "company": "Early Startup",
-      "description": "作为早期工程成员，从零搭建核心产品，技术栈包括 Next.js 与 Tailwind CSS。"
+      "company": "腾讯",
+      "description": "负责腾讯视频 visionOS 主要开发、腾讯视频客户端需求迭代、基建工具开发，以及推荐后台与客户端自动化测试平台开发。"
     }
   },
   "skills": {
