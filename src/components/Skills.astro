@@ -26,31 +26,34 @@ const { heading, content } = Astro.props as Props;
     <div class="grid grid-cols-1 gap-px md:grid-cols-3">
         {
             content.map((skill) => (
-                <article class="border p-5 min-h-64 flex flex-col gap-4">
-                    <div class="flex flex-col gap-3">
+                <article class="border p-5 min-h-60 flex flex-col">
+                    <div class="flex flex-col gap-4">
                         <I18NDebug key={skill.title.key}>
-                            <p class="text-green-500 break-words leading-tight text-[1.8rem] md:text-[1.5rem]">
-                                {">"} {skill.title.value}
+                            <p class="text-green-500 leading-none tracking-tight text-[1.75rem] md:text-[1.3rem] xl:text-[1.5rem] md:whitespace-nowrap">
+                                {"> "}
+                                {skill.title.value}
                             </p>
                         </I18NDebug>
 
                         <I18NDebug key={skill.category.key}>
-                            <span class="text-[0.7rem] p-1 text-white/70 uppercase">{skill.category.value}</span>
+                            <span class="inline-flex w-fit border border-white/15 px-2 py-1 text-[0.68rem] text-white/70 uppercase leading-none">
+                                {skill.category.value}
+                            </span>
                         </I18NDebug>
 
                         <I18NDebug key={skill.description.key}>
-                            <p class="text-[0.95rem] opacity-50 pb-3 border-b min-h-[4.5rem] leading-8 break-words">
+                            <p class="text-[0.82rem] opacity-50 leading-7 line-clamp-3 min-h-[5.25rem]">
                                 {skill.description.value}
                             </p>
                         </I18NDebug>
                     </div>
 
-                    <div class="mt-auto flex items-end gap-3">
+                    <div class="mt-auto pt-4 border-t flex items-end gap-3">
                         <I18NDebug key={skill.experience_years.key}>
-                            <p class="text-5xl leading-none">{skill.experience_years.value}</p>
+                            <p class="text-4xl leading-none">{skill.experience_years.value}</p>
                         </I18NDebug>
                         <I18NDebug key={skill.experience_label.key}>
-                            <p class="text-[0.88rem] opacity-50 leading-tight max-w-28">
+                            <p class="text-[0.78rem] opacity-50 leading-tight max-w-24">
                                 {skill.experience_label.value}
                             </p>
                         </I18NDebug>
