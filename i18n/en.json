@@ -58,10 +58,10 @@
       "experience_label": "years of experience"
     },
     "astro": {
-      "title": "Astro",
+      "title": "SwiftUI",
       "category": "Framework",
-      "description": "Island Architecture, Static Site Generation",
-      "experience_years": "2",
+      "description": "Declarative UI, State-Driven Rendering, Apple Platforms",
+      "experience_years": "6",
       "experience_label": "years of experience"
     },
     "tailwind": {

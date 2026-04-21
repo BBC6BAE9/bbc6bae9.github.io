@@ -58,10 +58,10 @@
       "experience_label": "年の経験"
     },
     "astro": {
-      "title": "Astro",
+      "title": "SwiftUI",
       "category": "フレームワーク",
-      "description": "Island Architecture、静的サイト生成",
-      "experience_years": "2",
+      "description": "宣言的 UI、状態駆動レンダリング、Appleプラットフォーム",
+      "experience_years": "6",
       "experience_label": "年の経験"
     },
     "tailwind": {

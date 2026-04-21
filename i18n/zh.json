@@ -58,10 +58,10 @@
       "experience_label": "年经验"
     },
     "astro": {
-      "title": "Astro",
+      "title": "SwiftUI",
       "category": "框架",
-      "description": "Island Architecture、静态站点生成",
-      "experience_years": "2",
+      "description": "声明式 UI、状态驱动渲染、Apple 平台",
+      "experience_years": "6",
       "experience_label": "年经验"
     },
     "tailwind": {
