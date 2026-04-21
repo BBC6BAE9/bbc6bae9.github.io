@@ -1,3 +1,20 @@
 ---
-return Astro.redirect('/en');
+const target = "/en/";
 ---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={`https://bbc6bae9.github.io${target}`} />
+    <title>Redirecting to /en/</title>
+  </head>
+  <body>
+    <script is:inline>
+      window.location.replace("/en/");
+    </script>
+    <a href={target}>Redirecting to /en/</a>
+  </body>
+</html>
