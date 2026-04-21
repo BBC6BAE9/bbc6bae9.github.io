@@ -1,64 +1,171 @@
-![Astro Nano](_astro_nano.png)
+# Void - Minimalist Multilingual Portfolio Template
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+A clean, minimalist portfolio template built with Astro and TailwindCSS, featuring full internationalization support using `@ariaskit/astro-i18n`.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+![Hero](.github/571_1x_shots_so.png)
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+## ✨ Features
 
-## 🚀 Deploy your own
+- **🌍 Multilingual Support** - Built-in i18n with English, Spanish, and Portuguese
+- **⚡ Astro 5** - Fast, modern static site generation
+- **🎨 TailwindCSS 4** - Utility-first styling with dark mode
+- **📱 Responsive Design** - Mobile-first approach
+- **🔍 SEO Optimized** - Sitemap, meta tags
+- **🚀 Zero JS by Default** - Minimal JavaScript for optimal performance
+- **📝 TypeScript** - Full type safety throughout
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
+## 🛠 Tech Stack
 
-## 📋 Features
+- **Framework**: [Astro](https://astro.build/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Icons**: [Lucide](https://lucide.dev/)
+- **Internationalization**: [@ariaskit/astro-i18n](https://github.com/JorgeRosbel/astro-i18n)
+- **Package Manager**: pnpm
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+## 🚀 Quick Start
 
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](_lighthouse.png)
+### Prerequisites
 
-## 🕊️ Lightweight
-No frameworks or added bulk
+- Node.js 18+ 
+- pnpm (recommended)
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+### Installation
 
-## 📄 Configuration
+```bash
+# Clone the repository
+git clone https://github.com/JorgeRosbel/void.git
+cd void
 
-The blog posts on the demo serve as the documentation and configuration.
+# Install dependencies
+pnpm install
 
-## 💻 Commands
+# Start development server
+pnpm dev
+```
 
-All commands are run from the root of the project, from a terminal:
+Your site will be available at `http://localhost:4321`.
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+### Build & Deploy
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+```bash
+# Build for production
+pnpm build
 
-## 🏛️ License
+# Preview production build
+pnpm preview
+```
 
-MIT
+## 🌐 Internationalization
+
+This template uses `@ariaskit/astro-i18n` for seamless multilingual support. The i18n system is configured for:
+
+- **English** (`en`) - Default locale
+- **Spanish** (`es`)
+- **Portuguese** (`pt`)
+
+### Adding New Languages
+
+1. Create a new JSON file in `/i18n/` (e.g., `fr.json`)
+2. Copy the structure from `en.json`
+3. Add the new locale to `src/pages/[lang]/index.astro` in the `getStaticPaths` function
+4. Update the i18n library configuration if needed
+
+### Translation Files
+
+All translations are stored in `/i18n/`:
+- `en.json` - English translations
+- `es.json` - Spanish translations  
+- `pt.json` - Portuguese translations
+
+Each file contains the same structure with keys for:
+- Navigation items
+- Hero section content
+- Project descriptions
+- Experience details
+- Contact information
+
+## 📁 Project Structure
+
+```
+void/
+├── public/              # Static assets
+├── src/
+│   ├── assets/         # Images and static files
+│   ├── components/     # Astro components
+│   │   ├── Hero.astro
+│   │   ├── Projects.astro
+│   │   ├── Experience.astro
+│   │   └── ...
+│   ├── layouts/        # Page layouts
+│   ├── pages/          # Route pages
+│   │   ├── index.astro      # Root redirect
+│   │   └── [lang]/          # Localized pages
+│   └── styles/         # Global styles
+├── i18n/               # Translation files
+├── astro.config.mjs    # Astro configuration
+└── package.json        # Dependencies
+```
+
+## 🎨 Customization
+
+### Personal Information
+
+Edit the translation files in `/i18n/` to update:
+- Personal name and title
+- Project descriptions
+- Experience details
+- Contact information
+
+### Styling
+
+The template uses TailwindCSS with a dark theme. Customize colors and styles in:
+- Global CSS classes in components
+- Tailwind configuration (if needed)
+
+### Adding New Sections
+
+1. Create new components in `/src/components/`
+2. Add translation keys to all i18n files
+3. Import and use components in `/src/pages/[lang]/index.astro`
+
+## 🔧 Configuration
+
+### Site Configuration
+
+Update `astro.config.mjs` to change:
+- Site URL (`site` property)
+- Add/remove integrations
+
+### Package Scripts
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production (includes i18n validation)
+- `pnpm preview` - Preview production build
+
+## 🌍 Deployment
+
+This template works great with:
+
+- **Vercel** - Zero-config deployment
+- **Netlify** - Simple static site hosting
+- **GitHub Pages** - Free static hosting
+- **Cloudflare Pages** - Global CDN
+
+
+## 📝 License
+
+MIT License - feel free to use this template for your projects!
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📚 Learn More
+
+- [Astro Documentation](https://docs.astro.build/)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs)
+- [@ariaskit/astro-i18n Documentation](https://github.com/JorgeRosbel/astro-i18n)
+
+---
+
+**Built with ❤️ using Astro and TailwindCSS**
