@@ -23,36 +23,6 @@
       "name": "a2a-swift",
       "description": "Apple プラットフォームで Agent 間通信を扱うための Swift ベースの A2A 実装です。",
       "link": "https://github.com/BBC6BAE9/a2a-swift"
-    },
-    "item_3": {
-      "name": "gitzen",
-      "description": "Git のコミットメッセージを自動生成する AI ベースの CLI ツールです。",
-      "link": "https://github.com/JorgeRosbel/gitzen"
-    },
-    "item_4": {
-      "name": "NovaBoost",
-      "description": "Astro 5 と TailwindCSS で作られた、SEO と拡張性を重視したブログテンプレートです。",
-      "link": "https://github.com/JorgeRosbel/NovaBoost"
-    },
-    "item_5": {
-      "name": "astro-i18n",
-      "description": "TypeScript をサポートする Astro 向けのシンプルな i18n ライブラリです。",
-      "link": "https://github.com/JorgeRosbel/astro-i18n"
-    },
-    "item_6": {
-      "name": "astro-collections",
-      "description": "Astro のコンテンツコレクション管理を支援するユーティリティ群です。",
-      "link": "https://github.com/JorgeRosbel/astro-collections"
-    },
-    "item_7": {
-      "name": "Geofisik Tool",
-      "description": "構造物の鉛直変位を監視する地球物理 Web アプリで、地図と時系列チャートを備えています。",
-      "link": "https://tool.geofisik.com/"
-    },
-    "item_8": {
-      "name": "EmoteShowcase",
-      "description": "絵文字素材のリサイズとプレビューを行い、配信向けに最適化して書き出せる Web アプリです。",
-      "link": "https://emoteshowcase.com/"
     }
   },
   "experience": {

@@ -23,36 +23,6 @@
       "name": "a2a-swift",
       "description": "A Swift implementation for building Agent-to-Agent communication flows with a native Apple-platform developer experience.",
       "link": "https://github.com/BBC6BAE9/a2a-swift"
-    },
-    "item_3": {
-      "name": "gitzen",
-      "description": "AI-powered CLI tool for automatic git commit message generation.",
-      "link": "https://github.com/JorgeRosbel/gitzen"
-    },
-    "item_4": {
-      "name": "NovaBoost",
-      "description": "Free Astro 5 & TailwindCSS blog template—SEO-optimized, with JSON-LD and optional AI post generation.",
-      "link": "https://github.com/JorgeRosbel/NovaBoost"
-    },
-    "item_5": {
-      "name": "astro-i18n",
-      "description": "Simple internationalization (i18n) library for Astro with TypeScript support.",
-      "link": "https://github.com/JorgeRosbel/astro-i18n"
-    },
-    "item_6": {
-      "name": "astro-collections",
-      "description": "A collection utilities library for Astro framework, providing easy collection management components.",
-      "link": "https://github.com/JorgeRosbel/astro-collections"
-    },
-    "item_7": {
-      "name": "Geofisik Tool",
-      "description": "Geophysical web application to monitor vertical displacements in structures with interactive maps and time-series charts.",
-      "link": "https://tool.geofisik.com/"
-    },
-    "item_8": {
-      "name": "EmoteShowcase",
-      "description": "Web app for dynamic resizing and visualization of emotes with live previews and optimized export for streaming.",
-      "link": "https://emoteshowcase.com/"
     }
   },
   "experience": {

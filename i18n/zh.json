@@ -23,36 +23,6 @@
       "name": "a2a-swift",
       "description": "一个使用 Swift 构建的 A2A 协议实现，用于在 Apple 平台上搭建 Agent 与 Agent 之间的通信能力。",
       "link": "https://github.com/BBC6BAE9/a2a-swift"
-    },
-    "item_3": {
-      "name": "gitzen",
-      "description": "基于 AI 的 CLI 工具，用于自动生成 Git commit message。",
-      "link": "https://github.com/JorgeRosbel/gitzen"
-    },
-    "item_4": {
-      "name": "NovaBoost",
-      "description": "一个基于 Astro 5 和 TailwindCSS 的博客模板，注重 SEO、JSON-LD 和内容扩展能力。",
-      "link": "https://github.com/JorgeRosbel/NovaBoost"
-    },
-    "item_5": {
-      "name": "astro-i18n",
-      "description": "一个面向 Astro 的轻量级国际化库，提供 TypeScript 支持。",
-      "link": "https://github.com/JorgeRosbel/astro-i18n"
-    },
-    "item_6": {
-      "name": "astro-collections",
-      "description": "一个帮助 Astro 管理内容集合的工具库和组件集。",
-      "link": "https://github.com/JorgeRosbel/astro-collections"
-    },
-    "item_7": {
-      "name": "Geofisik Tool",
-      "description": "用于监测结构体垂直位移的地球物理 Web 应用，带交互地图和时间序列图表。",
-      "link": "https://tool.geofisik.com/"
-    },
-    "item_8": {
-      "name": "EmoteShowcase",
-      "description": "一个用于动态调整和预览表情素材尺寸的 Web 应用，支持更适合直播场景的导出。",
-      "link": "https://emoteshowcase.com/"
     }
   },
   "experience": {
