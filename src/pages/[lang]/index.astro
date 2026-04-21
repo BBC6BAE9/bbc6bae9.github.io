@@ -30,8 +30,14 @@ const nav = [
   { path: `#${t("nav.contact")}`, text: t("nav.contact") },
 ];
 
+const localizedNames = {
+  en: "Hong Huang",
+  zh: "黄洪",
+  ja: "Huang Hong",
+} as const;
+
 const heroProps = {
-  name: "黄洪",
+  name: localizedNames[locale as keyof typeof localizedNames] ?? localizedNames.en,
   title: { key: "hero.title", value: t("hero.title") },
   p1: { key: "hero.p1", value: t("hero.p1") },
   p2: { key: "hero.p2", value: t("hero.p2") },
