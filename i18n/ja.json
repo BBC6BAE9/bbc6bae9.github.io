@@ -44,10 +44,10 @@
       "experience_label": "年の経験"
     },
     "typescript": {
-      "title": "TypeScript",
+      "title": "Objective-C",
       "category": "言語",
-      "description": "静的型付け、ジェネリクス、インターフェース設計",
-      "experience_years": "3",
+      "description": "iOS開発、Runtime、アプリ設計",
+      "experience_years": "10",
       "experience_label": "年の経験"
     },
     "astro": {

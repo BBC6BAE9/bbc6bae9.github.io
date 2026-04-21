@@ -44,10 +44,10 @@
       "experience_label": "年经验"
     },
     "typescript": {
-      "title": "TypeScript",
+      "title": "Objective-C",
       "category": "语言",
-      "description": "静态类型、泛型、接口设计",
-      "experience_years": "3",
+      "description": "iOS 开发、Runtime、应用架构",
+      "experience_years": "10",
       "experience_label": "年经验"
     },
     "astro": {

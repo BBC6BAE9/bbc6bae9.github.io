@@ -44,10 +44,10 @@
       "experience_label": "years of experience"
     },
     "typescript": {
-      "title": "TypeScript",
+      "title": "Objective-C",
       "category": "Language",
-      "description": "Static Typing, Generics, Interfaces",
-      "experience_years": "3",
+      "description": "iOS Development, Runtime, App Architecture",
+      "experience_years": "10",
       "experience_label": "years of experience"
     },
     "astro": {
