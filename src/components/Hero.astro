@@ -24,11 +24,15 @@ const { name, title, p1, p2, p3 } = Astro.props as Props;
                 <span class="opacity-50">{p1.value}</span>
             </I18NDebug>
         </p>
-        <I18NDebug key={p2.key}>
-            <p class="opacity-50">{p2.value}</p>
-        </I18NDebug>
-        <I18NDebug key={p3.key}>
-            <p class="opacity-50">{p3.value}</p>
-        </I18NDebug>
+        {p2.value && (
+            <I18NDebug key={p2.key}>
+                <p class="opacity-50">{p2.value}</p>
+            </I18NDebug>
+        )}
+        {p3.value && (
+            <I18NDebug key={p3.key}>
+                <p class="opacity-50">{p3.value}</p>
+            </I18NDebug>
+        )}
     </div>
 </section>
