@@ -6,7 +6,7 @@ A clean, minimalist portfolio template built with Astro and TailwindCSS, featuri
 
 ## ✨ Features
 
-- **🌍 Multilingual Support** - Built-in i18n with English, Spanish, and Portuguese
+- **🌍 Multilingual Support** - Built-in i18n with English, Chinese, and Japanese
 - **⚡ Astro 5** - Fast, modern static site generation
 - **🎨 TailwindCSS 4** - Utility-first styling with dark mode
 - **📱 Responsive Design** - Mobile-first approach
@@ -60,8 +60,8 @@ pnpm preview
 This template uses `@ariaskit/astro-i18n` for seamless multilingual support. The i18n system is configured for:
 
 - **English** (`en`) - Default locale
-- **Spanish** (`es`)
-- **Portuguese** (`pt`)
+- **Chinese** (`zh`)
+- **Japanese** (`ja`)
 
 ### Adding New Languages
 
@@ -74,8 +74,8 @@ This template uses `@ariaskit/astro-i18n` for seamless multilingual support. The
 
 All translations are stored in `/i18n/`:
 - `en.json` - English translations
-- `es.json` - Spanish translations  
-- `pt.json` - Portuguese translations
+- `zh.json` - Chinese translations  
+- `ja.json` - Japanese translations
 
 Each file contains the same structure with keys for:
 - Navigation items

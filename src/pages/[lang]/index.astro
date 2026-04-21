@@ -2,8 +2,8 @@
 export const getStaticPaths = () => {
   return [
     { params: { lang: "en" } },
-    { params: { lang: "es" } },
-    { params: { lang: "pt" } },
+    { params: { lang: "zh" } },
+    { params: { lang: "ja" } },
   ];
 };
 
@@ -31,7 +31,7 @@ const nav = [
 ];
 
 const heroProps = {
-  name: "Alex Chen",
+  name: "Hong Huang",
   title: { key: "hero.title", value: t("hero.title") },
   p1: { key: "hero.p1", value: t("hero.p1") },
   p2: { key: "hero.p2", value: t("hero.p2") },
@@ -184,9 +184,9 @@ const experienceData = {
 };
 
 const alternate = [
-  { href: "/es", hreflang: "es" },
   { href: "/en", hreflang: "en" },
-  { href: "/pt", hreflang: "pt" },
+  { href: "/zh", hreflang: "zh" },
+  { href: "/ja", hreflang: "ja" },
 ];
 
 const footerContent = {
@@ -282,7 +282,7 @@ const skills = [
   description={t("description")}
   alternateLinks={alternate}
 >
-  <Header nav={nav} locales={["en", "es", "pt"]} currentLocale={locale} />
+  <Header nav={nav} locales={["en", "zh", "ja"]} currentLocale={locale} />
 
   <main>
     <Hero {...heroProps} />

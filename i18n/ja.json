@@ -1,0 +1,141 @@
+{
+  "description": "高性能な Web アプリケーションと開発者向けツールを作るフルスタックエンジニアです。",
+  "nav": {
+    "about": "概要",
+    "projects": "プロジェクト",
+    "experience": "経験",
+    "contact": "連絡先"
+  },
+  "hero": {
+    "title": "フルスタックエンジニア",
+    "p1": "高性能な Web アプリケーションと開発者向けツールを作っています。",
+    "p2": "コード品質、表示速度、そして無駄のない実用的な UX を重視しています。",
+    "p3": "コーディングしていない時は、個人プロジェクトの改善やフロントエンド基盤の調査、知見の整理を続けています。"
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "item_1": {
+      "name": "hybrid-astro-ui",
+      "description": "Astro 向けの UI コンポーネント集。ゼロ JS の Astro と Web Components による段階的拡張を組み合わせています。",
+      "link": "https://github.com/JorgeRosbel/hybrid-astro-ui"
+    },
+    "item_2": {
+      "name": "http-sentinel",
+      "description": "HTTP エラーを統一的に扱うための TypeScript ライブラリです。",
+      "link": "https://github.com/JorgeRosbel/http-sentinel"
+    },
+    "item_3": {
+      "name": "gitzen",
+      "description": "Git のコミットメッセージを自動生成する AI ベースの CLI ツールです。",
+      "link": "https://github.com/JorgeRosbel/gitzen"
+    },
+    "item_4": {
+      "name": "NovaBoost",
+      "description": "Astro 5 と TailwindCSS で作られた、SEO と拡張性を重視したブログテンプレートです。",
+      "link": "https://github.com/JorgeRosbel/NovaBoost"
+    },
+    "item_5": {
+      "name": "astro-i18n",
+      "description": "TypeScript をサポートする Astro 向けのシンプルな i18n ライブラリです。",
+      "link": "https://github.com/JorgeRosbel/astro-i18n"
+    },
+    "item_6": {
+      "name": "astro-collections",
+      "description": "Astro のコンテンツコレクション管理を支援するユーティリティ群です。",
+      "link": "https://github.com/JorgeRosbel/astro-collections"
+    },
+    "item_7": {
+      "name": "Geofisik Tool",
+      "description": "構造物の鉛直変位を監視する地球物理 Web アプリで、地図と時系列チャートを備えています。",
+      "link": "https://tool.geofisik.com/"
+    },
+    "item_8": {
+      "name": "EmoteShowcase",
+      "description": "絵文字素材のリサイズとプレビューを行い、配信向けに最適化して書き出せる Web アプリです。",
+      "link": "https://emoteshowcase.com/"
+    }
+  },
+  "experience": {
+    "title": "経験",
+    "item_1": {
+      "period": "2024 — 現在",
+      "role": "シニアエンジニア",
+      "company": "Vercel",
+      "description": "ダッシュボード、デプロイ基盤、開発者体験を含むフロントエンドクラウドに関わる開発に従事。"
+    },
+    "item_2": {
+      "period": "2022 — 2024",
+      "role": "ソフトウェアエンジニア",
+      "company": "Linear",
+      "description": "リアルタイム同期、キーボード中心の操作性、パフォーマンス改善に取り組みました。"
+    },
+    "item_3": {
+      "period": "2020 — 2022",
+      "role": "フルスタックエンジニア",
+      "company": "Stripe",
+      "description": "決済フローや加盟店向けダッシュボードを設計し、React 18 への移行と CI/CD 改善を進めました。"
+    },
+    "item_4": {
+      "period": "2018 — 2020",
+      "role": "フロントエンドエンジニア",
+      "company": "Early Startup",
+      "description": "初期エンジニアとして、Next.js と Tailwind CSS でコアプロダクトをゼロから構築しました。"
+    }
+  },
+  "skills": {
+    "heading": "スキル",
+    "react": {
+      "title": "React",
+      "category": "ライブラリ",
+      "description": "UI コンポーネント、Hooks、状態管理",
+      "experience_years": "4",
+      "experience_label": "年の経験"
+    },
+    "typescript": {
+      "title": "TypeScript",
+      "category": "言語",
+      "description": "静的型付け、ジェネリクス、インターフェース設計",
+      "experience_years": "3",
+      "experience_label": "年の経験"
+    },
+    "astro": {
+      "title": "Astro",
+      "category": "フレームワーク",
+      "description": "Island Architecture、静的サイト生成",
+      "experience_years": "2",
+      "experience_label": "年の経験"
+    },
+    "tailwind": {
+      "title": "Tailwind CSS",
+      "category": "デザイン",
+      "description": "ユーティリティファースト、レスポンシブデザイン",
+      "experience_years": "4",
+      "experience_label": "年の経験"
+    },
+    "nodejs": {
+      "title": "Node.js",
+      "category": "バックエンド",
+      "description": "REST API、Express、認証",
+      "experience_years": "3",
+      "experience_label": "年の経験"
+    },
+    "kali_linux": {
+      "title": "Kali Linux",
+      "category": "セキュリティ",
+      "description": "ペネトレーションテスト、SQL インジェクション、ネットワーク監査",
+      "experience_years": "1",
+      "experience_label": "年の経験"
+    }
+  },
+  "contact": {
+    "status": "案件相談可能",
+    "email_label": "Email",
+    "email_url": "mailto:bbc6bae9@gmail.com",
+    "github_label": "GitHub",
+    "github_url": "https://github.com/BBC6BAE9",
+    "x_label": "X",
+    "x_url": "https://x.com/Bae9Bbc6",
+    "linkedin_label": "LinkedIn",
+    "linkedin_url": ""
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "description": "全栈工程师，专注于构建高性能 Web 应用和开发者工具。",
+  "nav": {
+    "about": "关于",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "全栈工程师",
+    "p1": "专注于构建高性能 Web 应用和开发者工具。",
+    "p2": "关注代码质量、加载性能和克制但有效的用户体验设计。",
+    "p3": "不写代码的时候，我会继续打磨个人项目、研究前端工程方案，并记录值得沉淀的经验。"
+  },
+  "projects": {
+    "title": "项目",
+    "item_1": {
+      "name": "hybrid-astro-ui",
+      "description": "一套面向 Astro 的 UI 组件方案，结合零 JS 的 Astro 渲染和基于 Web Components 的渐进增强。",
+      "link": "https://github.com/JorgeRosbel/hybrid-astro-ui"
+    },
+    "item_2": {
+      "name": "http-sentinel",
+      "description": "一个 TypeScript HTTP 错误类与工具库，用于更统一地处理服务端和接口错误。",
+      "link": "https://github.com/JorgeRosbel/http-sentinel"
+    },
+    "item_3": {
+      "name": "gitzen",
+      "description": "基于 AI 的 CLI 工具，用于自动生成 Git commit message。",
+      "link": "https://github.com/JorgeRosbel/gitzen"
+    },
+    "item_4": {
+      "name": "NovaBoost",
+      "description": "一个基于 Astro 5 和 TailwindCSS 的博客模板，注重 SEO、JSON-LD 和内容扩展能力。",
+      "link": "https://github.com/JorgeRosbel/NovaBoost"
+    },
+    "item_5": {
+      "name": "astro-i18n",
+      "description": "一个面向 Astro 的轻量级国际化库，提供 TypeScript 支持。",
+      "link": "https://github.com/JorgeRosbel/astro-i18n"
+    },
+    "item_6": {
+      "name": "astro-collections",
+      "description": "一个帮助 Astro 管理内容集合的工具库和组件集。",
+      "link": "https://github.com/JorgeRosbel/astro-collections"
+    },
+    "item_7": {
+      "name": "Geofisik Tool",
+      "description": "用于监测结构体垂直位移的地球物理 Web 应用，带交互地图和时间序列图表。",
+      "link": "https://tool.geofisik.com/"
+    },
+    "item_8": {
+      "name": "EmoteShowcase",
+      "description": "一个用于动态调整和预览表情素材尺寸的 Web 应用，支持更适合直播场景的导出。",
+      "link": "https://emoteshowcase.com/"
+    }
+  },
+  "experience": {
+    "title": "经历",
+    "item_1": {
+      "period": "2024 — 至今",
+      "role": "高级工程师",
+      "company": "Vercel",
+      "description": "参与前端云平台相关工作，覆盖控制台、部署基础设施和开发者体验。"
+    },
+    "item_2": {
+      "period": "2022 — 2024",
+      "role": "软件工程师",
+      "company": "Linear",
+      "description": "参与实时同步、键盘优先交互和性能优化相关功能开发。"
+    },
+    "item_3": {
+      "period": "2020 — 2022",
+      "role": "全栈开发工程师",
+      "company": "Stripe",
+      "description": "参与支付流程和商家后台建设，并推动 React 18 迁移与 CI/CD 改进。"
+    },
+    "item_4": {
+      "period": "2018 — 2020",
+      "role": "前端工程师",
+      "company": "Early Startup",
+      "description": "作为早期工程成员，从零搭建核心产品，技术栈包括 Next.js 与 Tailwind CSS。"
+    }
+  },
+  "skills": {
+    "heading": "技能",
+    "react": {
+      "title": "React",
+      "category": "库",
+      "description": "UI 组件、Hooks、状态管理",
+      "experience_years": "4",
+      "experience_label": "年经验"
+    },
+    "typescript": {
+      "title": "TypeScript",
+      "category": "语言",
+      "description": "静态类型、泛型、接口设计",
+      "experience_years": "3",
+      "experience_label": "年经验"
+    },
+    "astro": {
+      "title": "Astro",
+      "category": "框架",
+      "description": "Island Architecture、静态站点生成",
+      "experience_years": "2",
+      "experience_label": "年经验"
+    },
+    "tailwind": {
+      "title": "Tailwind CSS",
+      "category": "设计",
+      "description": "原子化样式、响应式设计",
+      "experience_years": "4",
+      "experience_label": "年经验"
+    },
+    "nodejs": {
+      "title": "Node.js",
+      "category": "后端",
+      "description": "REST API、Express、鉴权",
+      "experience_years": "3",
+      "experience_label": "年经验"
+    },
+    "kali_linux": {
+      "title": "Kali Linux",
+      "category": "安全",
+      "description": "渗透测试、SQL 注入、网络审计",
+      "experience_years": "1",
+      "experience_label": "年经验"
+    }
+  },
+  "contact": {
+    "status": "可接受合作",
+    "email_label": "Email",
+    "email_url": "mailto:bbc6bae9@gmail.com",
+    "github_label": "GitHub",
+    "github_url": "https://github.com/BBC6BAE9",
+    "x_label": "X",
+    "x_url": "https://x.com/Bae9Bbc6",
+    "linkedin_label": "LinkedIn",
+    "linkedin_url": ""
+  }
+}
